@@ -1,0 +1,75 @@
+.menuDesktop{
+    /*border: 0.1rem blue solid;*/
+    width: 40%;
+    display: flex;
+    margin: 0rem 2rem 0rem 0rem;
+}
+
+.menuDesktop ul{
+    /*border: 0.1rem green solid;*/
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menuDesktop ul li{
+    /*border: 0.1rem yellow solid;*/
+    font-size: 1.5rem;
+    list-style: none;
+    color: var(--texto-claro);
+    cursor: pointer;
+}
+
+.menuDesktop ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.menuMobile{
+    /*border: 0.1rem yellow solid;*/
+    position: absolute;
+    top: 6rem;
+    right: 0;
+    width: 0rem;
+    overflow: hidden;
+    height: calc(100vh - 6rem);
+    transition: 0.5s;
+}
+
+.active{
+    width: 20rem;
+}
+
+.menuMobile ul{
+    /*border: 0.1rem rgb(113, 0, 128) solid;*/
+    backdrop-filter: blur(1rem);
+    width: 100%;
+    height: 100%;
+}
+
+.menuMobile ul li{
+    /*border: 0.1rem rgb(255, 238, 0) solid;*/
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    list-style: none;
+}
+
+.menuMobile ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+#iconMenu{
+    border: 0.1rem rgb(0, 247, 255) solid;
+    width: 2.5rem;
+    height: 2.5rem;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0rem 3rem;
+    display: none;
+    cursor: pointer;
+    position: relative;
+}

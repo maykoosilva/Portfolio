@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+:root{
+    font-size: 62.5%;
+    --fundo-header: #ECEBE4;
+    --fundo-principal: #DADDD8;
+    --fundo-secundario: rgb(31, 39, 51);
+    --fundo-terciario: 	#e9f7e0de;
+    --cor-texto: black;
+    --cor-texto-2: #ffffffb9;
+    --borda: #7F7979;
+    --cor-destaque: #EEF0F2;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+header{
+    /*border: 0.1rem red solid;*/
+    background-color: var(--fundo-header);
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    box-shadow: 0rem 0rem 1rem rgba(0, 0, 0, 0.315);
+}
+
+header .nameAuthor{
+    color: var(--cor-texto);
+    margin: 0rem 0rem 0rem 5rem;
+}

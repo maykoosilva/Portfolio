@@ -1,0 +1,95 @@
+#sectionAbout{
+    /*border: 0.3rem yellow solid;*/
+    background-color: var(--fundo-secundario);
+    width: 100vw;
+    height: 100vh;
+}
+
+
+#sectionAbout .titleAbout h2{
+    color: var(--cor-texto-2);
+    font-size: 4rem;
+    text-align: center;
+    /*border: 0.1rem red solid;*/
+    padding: 2rem 0rem;
+}
+
+#sectionAbout main{
+    /*border: 0.5rem purple solid;*/
+    color: var(--cor-texto-2);
+    width: 100vw;
+    height: calc(100% - 8rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#sectionAbout main .aboutMe{
+    /*border: 0.1rem red solid;*/
+    /*box-shadow: 0rem 0rem 2rem rgba(0, 0, 0, 0.322);*/
+    border-radius: 2rem;
+    width: 85rem;
+    height: auto;
+    padding: 1rem;
+}
+
+#sectionAbout main .aboutMe h2{
+    /*border: 0.1rem red solid;*/
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#sectionAbout main .aboutMe p{
+    font-size: 1.8rem;
+    text-align: center;
+    line-height: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+#sectionAbout main .aboutSkills{
+    /*border: 0.1rem red solid;*/
+    border-radius: 2rem;
+    /*box-shadow: 0rem 0rem 2rem rgba(0, 0, 0, 0.322);*/
+    width: 70%;
+    height: 25rem;
+}
+
+#sectionAbout main .aboutSkills #titleSkill{
+    /*border: 0.1rem red solid;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 2rem;
+}
+
+#sectionAbout main .aboutSkills .spanRoot{
+    /*border: 0.1rem red solid;*/
+    height: calc(100% - 4rem);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#sectionAbout main .aboutSkills .spanRoot .skill{
+    /*border: 0.1rem black solid;*/
+    border-radius: 1rem;
+    display: block;
+    width: 10rem;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#sectionAbout main .aboutSkills .spanRoot .skill:nth-child(1) {
+    box-shadow: 0rem 0rem 0.5rem rgba(255, 255, 255, 0.637);
+}
+
+#sectionAbout main .aboutSkills .spanRoot .skill:nth-child(2) {
+    box-shadow: 0rem 0rem 0.5rem rgba(255, 255, 255, 0.637);
+}
+
+#sectionAbout main .aboutSkills .spanRoot .skill:nth-child(3) {
+    box-shadow: 0rem 0rem 0.5rem rgba(255, 255, 255, 0.637);
+}

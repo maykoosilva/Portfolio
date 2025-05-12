@@ -1,0 +1,39 @@
+#sectionApresentation{
+    /*border: 0.3rem green solid;*/
+    background-color: var(--fundo-principal);
+    width: 100%;
+    height: calc(100vh - 6rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#sectionApresentation h2{
+    color: var(--cor-texto);
+    padding: 0.8rem;
+    font-size: 3.8rem;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+#sectionApresentation p{
+    color: var(--cor-texto);
+    font-size: 2rem;
+}
+
+#sectionApresentation #btnProject{
+    background-color: var(--cor-destaque);
+    border-color: var(--borda);
+    color: var(--cor-texto);
+    border-radius: 2rem;
+    width: 20rem;
+    padding: 1rem;
+    margin-top: 5rem;
+    cursor: pointer;
+}
+
+#sectionApresentation #btnProject a{
+    text-decoration: none;
+    color: black;
+}

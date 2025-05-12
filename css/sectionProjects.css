@@ -1,0 +1,114 @@
+#sectionProjects{
+    /*border: 0.4rem green solid;*/
+    background-color: var(--fundo-terciario);
+    width: 100vw;
+    height: 100vh;
+} 
+
+#sectionProjects .titleProject{
+    font-size: 4rem;
+    text-align: center;
+}
+
+#sectionProjects #areaCards{
+    /*border: 0.1rem red solid;*/
+    width: 100vw;
+    height: calc(100vh - 5rem);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+
+#sectionProjects .cards{
+    /*border: 0.1rem red solid;*/
+    border-radius: 2rem;
+    box-shadow: 0rem 0rem 1rem rgba(0, 0, 0, 0.603);
+    display: block;
+    width: 30rem;
+    height: 50rem;
+    position: absolute;
+    opacity: 0;
+}
+
+#sectionProjects div:nth-child(1){
+    z-index: 1;
+}
+
+#sectionProjects div:nth-child(2){
+    z-index: 2;
+}
+
+#sectionProjects div:nth-child(3){
+    z-index: 3;
+}
+
+#sectionProjects .cardImage{
+    /*border: 0.1rem red solid;*/
+    background-color: aqua;
+    width: 100%;
+    height: 50%;
+}
+
+#sectionProjects #cardImage1{
+    border-radius: 2rem;
+    background-image: url(../img/cards/project1.PNG);
+    background-position: center;
+    background-size: cover;
+}
+
+#sectionProjects #cardImage2{
+    border-radius: 2rem;
+    background-image: url(../img/cards/project2.PNG);
+    background-position: center;
+    background-size: cover;
+}
+
+#sectionProjects #cardImage3{
+    border-radius: 2rem;
+    background-image: url(../img/cards/project2.PNG);
+    background-position: center;
+    background-size: cover;
+}
+
+#sectionProjects .cardDesciption{
+    /*border: 0.1rem yellow solid;*/
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#sectionProjects .cardDesciption h3{
+    text-align: center;
+}
+
+#sectionProjects .cardDesciption .description{
+    /*border: 0.1rem red solid;*/
+    height: 60%;
+
+}
+
+#sectionProjects .cardDesciption .description p{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#sectionProjects .cardDesciption .cardButtons{
+    /*border: 0.1rem red solid;*/
+    display: flex;
+    gap: 3rem;
+}
+
+#sectionProjects .cardDesciption .cardButtons button{
+    border-radius: 2rem;
+    width: 10rem;
+    padding: 1rem;
+}
+
+#sectionProjects .cardDesciption .cardButtons button a{
+    text-decoration: none;
+    color: black;
+}

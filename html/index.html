@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/sectionApresentation.css">
+    <link rel="stylesheet" href="../css/sectionAbout.css">
+    <link rel="stylesheet" href="../css/sectionProjects.css">
+    <link rel="stylesheet" href="../media query/media_query.css">
+    <title>Portfólio</title>
+</head>
+<body>
+    <header>
+        <h1 class="nameAuthor">OKYAM</h1>
+        
+        <nav class="menuDesktop">
+            <ul>
+                <li>INÍCIO</li>
+                <li><a href="#sectionAbout">SOBRE</a></li>
+                <li><a href="#sectionProjects">PROJETOS</a></li>
+                <li>CONTATO</li>
+            </ul>
+        </nav>
+
+        <div id="iconMenu">
+            <img src="../img/icon/hamburguer-menu.svg" alt="Menu Hamburguer fechado" id="imgMenuHamburguer">
+           <!--<img src="../img/icon/hamburguer-menu2.svg" alt="Menu Hamburguer aberto">--> 
+        </div>
+
+        <nav class="menuMobile">
+            <ul>
+                <li>INÍCIO</li>
+                <li><a href="#sectionAbout">SOBRE</a></li>
+                <li><a href="#sectionProjects">PROJETOS</a></li>
+                <li>CONTATO</li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sectionApresentation">
+        <h2>OLÁ! MEU NOME É MAYKOO</h2>
+        <p>Desenvolvedor Front-End em formação</p>
+        <button type="button" id="btnProject"><a href="#sectionProjects">Projetos</a></button>
+    </section>
+
+
+
+
+
+    <section id="sectionAbout">
+        <div class="titleAbout">
+            <h2>SOBRE</h2>
+        </div>
+
+        <main>
+            <div class="aboutMe">
+                <p>Oi! Me chamo Maykoo e estou dando meus primeiros passos como desenvolvedor front-end. Comecei estudando HTML, CSS e JavaScript, e aos poucos estou construindo pequenos projetos para colocar em prática o que aprendo, nas quais estou assinando como Okyam.</p>
+                <p>Não sou nenhum especialista ainda (estou longe disso!), mas estou aprendendo um dia de cada vez. Já fiz uma To Do List e um app de clima, e tenho me divertido bastante enquanto aprendo. Meu objetivo é evoluir na área, ganhar experiência e quem sabe um dia trabalhar com isso profissionalmente.</p>
+            </div>
+
+            <div class="aboutSkills">
+                <h3 id="titleSkill">HABILIDADES</h3>
+
+                <div class="spanRoot">
+                    <span class="skill">HTML</span>
+                    <span class="skill">CSS</span>
+                    <span class="skill">JS</span>
+                </div>
+            </div>
+        </main>
+    </section>
+
+    <section id="sectionProjects">
+        <h3 class="titleProject">PROJETOS</h3>
+
+        <div id="areaCards">
+            <div id="card1" class="cards">
+                <div class="cardImage" id="cardImage1"></div>
+                <div class="cardDesciption">
+                    <h3>TO DO LIST</h3>
+
+                    <div class="description"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum, sit aperiam. Sunt beatae, in velit impedit labore ipsum numquam consequatur aspernatur voluptatem voluptas repellat et odit. Laboriosam, veritatis? Odio, inventore.</p></div>
+
+                    <div class="cardButtons">
+                        <button type="button"><a href="#" target="_blank">PROJETO</a></button>
+                        <button type="button"><a href="#" target="_blank">GITHUB</a></button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="card2" class="cards">
+                <div class="cardImage" id="cardImage2"></div>
+                <div class="cardDesciption">
+                    <h3>TO DO LIST</h3>
+
+                    <div class="description"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum, sit aperiam. Sunt beatae, in velit impedit labore ipsum numquam consequatur aspernatur voluptatem voluptas repellat et odit. Laboriosam, veritatis? Odio, inventore.</p></div>
+
+                    <div class="cardButtons">
+                        <button type="button"><a href="#" target="_blank">PROJETO</a></button>
+                        <button type="button"><a href="#" target="_blank">GITHUB</a></button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="card3" class="cards">
+                <div class="cardImage" id="cardImage3"></div>
+                <div class="cardDesciption"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer></footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../js/index.js"></script>
+    <script src="../js/animation.js"></script>
+</body>
+</html>
