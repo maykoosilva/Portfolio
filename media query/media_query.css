@@ -47,4 +47,10 @@
         position: relative;
         opacity: 1;
     }
+
+    /*Seção Contato*/
+
+    #sectionContact form{
+        width: 30rem;
+    }
 }
