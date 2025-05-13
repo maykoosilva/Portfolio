@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../css/sectionApresentation.css">
     <link rel="stylesheet" href="../css/sectionAbout.css">
     <link rel="stylesheet" href="../css/sectionProjects.css">
+    <link rel="stylesheet" href="../css/sectionContact.css">
     <link rel="stylesheet" href="../media query/media_query.css">
     <title>Portfólio</title>
 </head>
@@ -44,10 +45,6 @@
         <p>Desenvolvedor Front-End em formação</p>
         <button type="button" id="btnProject"><a href="#sectionProjects">Projetos</a></button>
     </section>
-
-
-
-
 
     <section id="sectionAbout">
         <div class="titleAbout">
@@ -111,6 +108,17 @@
                 <div class="cardDesciption"></div>
             </div>
         </div>
+    </section>
+
+    <section id="sectionContact">
+        <h2 class="titleContact">Contato</h2>
+        <form action="https://formsubmit.co/maykoo.silva23@gmail.com" method="POST">  
+           <label for="inputName">Nome</label> <input type="text" name="nome" placeholder="Seu nome" id="inputName" required>
+           <label for="inputEmail">E-mail</label> <input type="email" name="email" placeholder="Seu e-mail" id="inputEmail" required>
+            <label for="textArea">Mensagem</label> <textarea name="mensage" placeholder="Seu texto" id="textArea"></textarea>
+            <input type="hidden" name="_captcha" value="true">
+            <button type="submit" id="btnSend">Enviar</button>
+        </form>
     </section>
 
     <footer></footer>

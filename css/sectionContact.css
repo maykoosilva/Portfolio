@@ -1,0 +1,53 @@
+#sectionContact{
+    background-color: var(--fundo-principal);
+    width: 100vw;
+    height: 130vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#sectionContact .titleContact{
+    font-size: 4rem;
+    text-align: center;
+}
+
+#sectionContact form{
+    border-radius: 3rem;
+    background-color: var(--cor-destaque);
+    box-shadow: 0rem 0rem 1rem rgba(0, 0, 0, 0.863);
+    width: 50rem;
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+#sectionContact form label{
+    font-size: 1.5rem;
+}
+
+#sectionContact form input{
+    border-radius: 0.5rem;
+    width: 80%;
+    padding: 0.5rem;
+}
+
+#sectionContact form #textArea{
+    width: 80%;
+    height: 10rem;
+}
+
+#sectionContact form #btnSend{
+    border-radius: 2rem;
+    padding: 0.8rem;
+    width: 20rem;
+    background-color: var(--cor-destaque);
+    border-color: var(--borda);
+    color: var(--cor-texto);
+}
+
