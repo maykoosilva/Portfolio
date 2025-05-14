@@ -112,13 +112,18 @@
 
     <section id="sectionContact">
         <h2 class="titleContact">Contato</h2>
-        <form action="https://formsubmit.co/el/vivini" method="POST">  
-           <label for="inputName">Nome</label> <input type="text" name="name" placeholder="Seu nome" id="inputName" required>
-           <label for="inputEmail">E-mail</label> <input type="email" name="email" placeholder="Seu e-mail" id="inputEmail" required>
-            <label for="textArea">Mensagem</label> <textarea name="message" placeholder="Seu texto" id="textArea"></textarea>
+        <form action="https://getform.io/f/broykppa" method="POST">  
+           <label for="inputName">Nome</label> 
+           <input type="text" name="name" placeholder="Seu nome" id="inputName" required>
+
+           <label for="inputEmail">E-mail</label> 
+           <input type="email" name="email" placeholder="Seu e-mail" id="inputEmail" required>
+
+            <label for="textArea">Mensagem</label>
+            <textarea name="message" placeholder="Seu texto" id="textArea" required></textarea>
 
             <input type="hidden" name="_subject" value="Novo contato do portfólio">
-            <input type="hidden" name="_captcha" value="true">
+            <input type="hidden" name="_captcha" value="false">
             <button type="submit" id="btnSend">Enviar</button>
         </form>
     </section>
