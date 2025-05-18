@@ -1,5 +1,6 @@
 #sectionContact{
-    background-color: var(--fundo-principal);
+    /*background-color: var(--fundo-principal);*/
+    background: linear-gradient(to right, #1f2733, black);
     width: 100vw;
     height: 130vh;
     position: relative;
@@ -7,11 +8,13 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    font-family: var(--font-family);
 }
 
 #sectionContact .titleContact{
     font-size: 4rem;
     text-align: center;
+    color: var(--cor-texto-2);
 }
 
 #sectionContact form{
@@ -29,6 +32,7 @@
 
 #sectionContact form label{
     font-size: 1.5rem;
+    font-weight: 400;
 }
 
 #sectionContact form input{

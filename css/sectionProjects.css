@@ -2,18 +2,21 @@
     /*border: 0.4rem green solid;*/
     background-color: var(--fundo-terciario);
     width: 100vw;
-    height: 100vh;
+    height: 120vh;
+    font-family: var(--font-family);
 } 
 
 #sectionProjects .titleProject{
     font-size: 4rem;
     text-align: center;
+    padding: 2rem;
+    font-weight: 400;
 }
 
 #sectionProjects #areaCards{
     /*border: 0.1rem red solid;*/
     width: 100vw;
-    height: calc(100vh - 5rem);
+    height: calc(120vh - 9rem);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -21,13 +24,12 @@
 }
 
 #sectionProjects .cards{
-    /*border: 0.1rem red solid;*/
     border-radius: 2rem;
     background: linear-gradient(to top right, #1f2733, rgba(29, 67, 124, 0.877));
     box-shadow: 0rem 0rem 1rem rgba(0, 0, 0, 0.603);
     display: block;
-    width: 30rem;
-    height: 50rem;
+    width: 35rem;
+    height: 55rem;
     position: absolute;
     opacity: 0;
 }
@@ -87,15 +89,17 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    padding: 1rem;
 }
 
 #sectionProjects .cardDesciption h3{
+    font-size: 1.8rem;
+    font-weight: 700;
     text-align: center;
     color: aliceblue;
 }
 
 #sectionProjects .cardDesciption .description{
-    /*border: 0.1rem red solid;*/
     height: 60%;
 
 }
@@ -104,6 +108,7 @@
     margin: 0rem 0rem 1rem 0rem;
     line-height: 2.5rem;
     font-size: 1.5rem;
+    font-weight: 300;
     text-align: center;
     color: aliceblue;
 }
