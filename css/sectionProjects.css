@@ -1,5 +1,4 @@
 #sectionProjects{
-    /*border: 0.4rem green solid;*/
     background-color: var(--fundo-terciario);
     width: 100vw;
     height: 120vh;
@@ -14,7 +13,6 @@
 }
 
 #sectionProjects #areaCards{
-    /*border: 0.1rem red solid;*/
     width: 100vw;
     height: calc(120vh - 9rem);
     display: flex;

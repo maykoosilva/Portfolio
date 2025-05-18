@@ -38,6 +38,8 @@
 }
 
 #sectionApresentation #btnProject a{
+    font-family: var(--font-family);
+    font-weight: 500;
     text-decoration: none;
     color: black;
 }
