@@ -10,6 +10,8 @@
 }
 
 #sectionApresentation h2{
+    font-family: var(--font-family);
+    font-weight: 400;
     color: var(--cor-texto);
     padding: 0.8rem;
     font-size: 3.8rem;
@@ -18,6 +20,8 @@
 }
 
 #sectionApresentation p{
+    font-family: var(--font-family);
+    font-weight: 200;
     color: var(--cor-texto);
     font-size: 2rem;
 }

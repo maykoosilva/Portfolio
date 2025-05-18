@@ -18,6 +18,10 @@ html{
     --cor-texto-2: #ffffffb9;
     --borda: #7F7979;
     --cor-destaque: #EEF0F2;
+    --font-family: "Roboto", sans-serif;
+    --font-optical-sizing: auto;
+    --font-weight: 400;
+    --font-style: normal;
 }
 
 body{
