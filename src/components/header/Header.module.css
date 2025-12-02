@@ -1,0 +1,39 @@
+.header{
+    box-shadow: 0rem 0rem 1rem rgba(0, 0, 0, 0.151);
+    backdrop-filter: blur(1rem);
+    max-width: 100dvw;
+    width: min(100%);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.nav{
+    max-width: 120rem;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.6rem 2.4rem;
+}
+
+.logo{
+    text-decoration: none;
+    font-size: 2.4rem;
+    color: var(--color-primary);
+    font-weight: 500;
+}
+
+.list{
+    display: flex;
+    gap: clamp(1rem, 4vw, 5rem);
+    font-size: var(--font-size-body);
+    list-style: none;
+}
+
+.list a{
+    text-decoration: none;
+    color: var(--color-secondary);
+    font-weight: 400;
+}

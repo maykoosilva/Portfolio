@@ -1,0 +1,40 @@
+.main{
+    border: 0.1rem red solid;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero{
+    border: 0.1rem black solid;
+    max-width: 70rem;
+    width: 90%;
+}
+
+.hero p{
+    font-size: var(--font-size-body);
+    color: var(--color-emphasis);
+    margin: 0 0 0.8rem;
+}
+
+.hero h1{
+    font-size: var(--font-size-h1);
+    font-weight: 400;
+    color: var(--color-primary);
+    margin: 0 0 1.6rem;
+}
+
+.hero h2{
+    font-size: var(--font-size-h2-small);
+    font-weight: 400;
+    color: var(--color-secondary);
+    margin: 0 0 2.4rem;
+}
+
+.hero .description{
+    color: var(--color-secondary);
+    margin: 0 0 3.2rem;
+    flex-wrap: wrap;
+}
